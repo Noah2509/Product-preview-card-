@@ -1,0 +1,96 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-family:Fraunces;
+  width: 200px;
+}
+
+p {
+  color:hsl(228, 12%, 48%);
+  font-family:Montserrat;
+  font-size: 14px;
+  font-weight: 700px;
+  line-height: 1.5;
+  width:220px;
+}
+
+.intro {
+  background-color:  hsl(0, 0%, 100%);
+  border-radius: 10px;
+  position:relative;
+  width:600px;
+  height: 450px;
+}
+
+.product-img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+  width: 50%;
+
+}
+
+.text {
+  position:absolute;
+  left:330px;
+  top:20px;
+}
+
+.product {
+  color:Montserrat;
+  font-size: small;
+  letter-spacing: 4px;
+}
+
+.price {
+  position: relative;
+}
+
+.new-price {
+  color:hsl(158, 36%, 37%);
+  font-family: Fraunces;
+}
+
+.old-price {
+  font-size: x-small;
+  position:absolute;
+  left: 150px;
+  top: 0px;
+  text-decoration: line-through;
+
+}
+
+.btn {
+   background: hsl(158, 36%, 37%);
+   background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+   background-image: -moz-linear-gradient(top,hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+   background-image: -ms-linear-gradient(top,hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+   background-image: -o-linear-gradient(top, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+   background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+   -webkit-border-radius: 8;
+   -moz-border-radius: 8;
+   border-radius: 8px;
+   font-family: 'Montserrat', sans-serif;
+   color: hsl(0, 0%, 100%);
+   font-size: 18px;
+   font-weight: 500;
+   padding: 10px 50px 10px 50px;
+   text-decoration: none;
+ }
+
+.btn:hover {
+   background:hsl(158, 71%, 73%);
+   background-image: -webkit-linear-gradient(top, hsl(158, 71%, 73%));
+   background-image: -moz-linear-gradient(top,hsl(158, 71%, 73%), hsl(158, 71%, 73%));
+   background-image: -ms-linear-gradient(top, hsl(158, 71%, 73%), hsl(158, 71%, 73%));
+   background-image: -o-linear-gradient(top, hsl(158, 71%, 73%), hsl(158, 71%, 73%));
+   background-image: linear-gradient(to bottom, hsl(158, 71%, 73%), hsl(158, 71%, 73%));
+   text-decoration: none;
+  }
